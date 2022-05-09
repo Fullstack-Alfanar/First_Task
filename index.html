@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style/style.css"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Patrick+Hand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<footer>
+    <h3 class="title">Add Product</h3> 
+
+</footer>
+    <div>
+        <input class="iputData" type="text"  id="proName" required  placeholder="Product Name"> 
+        <input  class="iputData" type="number"  id="proPrice" required placeholder="Product Price">  
+        <select class="iputData" id="mySelect"> 
+            <option value="">select</option>
+            <option value="Drinks">Drinks</option> 
+            <option value=" Meat"> Meat</option>
+            <option value="Dairy">Dairy</option>
+            <option value="Snacks">Snacks</option>
+            <option value="Basic">Basic</option>
+        </select>
+        <input class="iputData" type="text" name="" id="url_img" placeholder="url imge"> 
+        <button class="btn" id="btn_add">Add Product</button>
+    </div>
+
+
+    <form action="">
+        <table class="styleTable">
+            <thead> 
+                <tr>
+                    <td class="sTd">Product Name</td>
+                    <td class="sTd">Product Price</td>
+                    <td class="sTd">Product category</td>
+                    <td class="sTd">Product Image</td>
+                </tr>
+            </thead>
+            <tbody id="myTable">
+
+            </tbody>
+
+        </table>
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

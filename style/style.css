@@ -1,0 +1,62 @@
+body{
+    background-color: #CAECF8;
+}
+
+.styleTable {
+    margin-top: 20px;
+}
+
+.sTd {
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 6px;
+    text-align: center;
+    background-color: #E6D0AC;
+    color: black;
+    font-size: large;
+    font-family: 'Baloo Tammudu 2', cursive;
+    
+
+} 
+
+.styleTd{
+    background-color: #E6D0AC; 
+    text-align: center; 
+    font-size: large;
+    font-family: 'Baloo Tammudu 2', cursive; 
+    border: 1px solid transparent; 
+    border-radius: 6px;
+    
+
+}
+
+
+.stylePic {
+    width: 100px;
+    height: 100px; 
+    background-color: #EED5AB;  
+    border: 1px solid transparent; 
+    border-radius: 6px; 
+  
+
+} 
+
+.iputData{
+    width: 180px; 
+    border: 1px solid black; 
+    border-radius: 6px; 
+    background-color: beige;
+} 
+
+.btn{
+    border: 1px solid black; 
+    border-radius: 3px; 
+    background-color: #EED5AB;  
+
+    
+} 
+
+.title{
+    color: #B7825F; 
+  
+}
